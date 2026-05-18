@@ -1,0 +1,15 @@
+WAVECAR
+CHGCAR
+XDATCAR
+OUTCAR
+DOSCAR
+EIGENVAL
+PROCAR
+REPORT
+PCDAT
+vasprun.xml
+*.xml
+*.dat
+*.swp
+vasp.out
+vasp.err

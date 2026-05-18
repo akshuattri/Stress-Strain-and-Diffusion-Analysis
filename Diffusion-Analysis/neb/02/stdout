@@ -1,0 +1,87 @@
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Aug 30 2023 13:02:20) complex          
+  
+ POSCAR found type information on POSCAR  Fe
+ 02/POSCAR found :  1 types and      26 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind:          For very  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: it is not advised to use IBRION=2 with the NEB.
+ POSCAR found type information on POSCAR  Fe
+ 00/POSCAR found :  1 types and      26 ions
+ POSCAR found type information on POSCAR  Fe
+ 05/POSCAR found :  1 types and      26 ions
+ Jacobian:    11.6171691895256     
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.157487244995E+04    0.15749E+04   -0.64283E+04 80112   0.145E+03
+DAV:   2    -0.652805786536E+02   -0.16402E+04   -0.15797E+04 80008   0.382E+02
+DAV:   3    -0.215309573940E+03   -0.15003E+03   -0.12366E+03 82763   0.146E+02
+DAV:   4    -0.236644217720E+03   -0.21335E+02   -0.19304E+02142867   0.416E+01
+DAV:   5    -0.238380824614E+03   -0.17366E+01   -0.15720E+01128942   0.127E+01    0.562E+01
+DAV:   6    -0.222390955045E+03    0.15990E+02   -0.42402E+02108913   0.116E+02    0.658E+01
+DAV:   7    -0.286499234955E+03   -0.64108E+02   -0.34709E+02153586   0.193E+02    0.120E+02
+DAV:   8    -0.212181629595E+03    0.74318E+02   -0.14403E+02143989   0.822E+01    0.473E+01
+DAV:   9    -0.208773481205E+03    0.34081E+01   -0.64445E+01147519   0.581E+01    0.308E+01
+DAV:  10    -0.210047374906E+03   -0.12739E+01   -0.25283E+01150232   0.385E+01    0.285E+01
+DAV:  11    -0.208370845099E+03    0.16765E+01   -0.89125E+00143997   0.264E+01    0.170E+01
+DAV:  12    -0.209064365594E+03   -0.69352E+00   -0.27881E+00144796   0.126E+01    0.151E+01
+DAV:  13    -0.209159093298E+03   -0.94728E-01   -0.18126E+00144458   0.123E+01    0.132E+01
+DAV:  14    -0.210107394829E+03   -0.94830E+00   -0.21187E+00154249   0.117E+01    0.125E+01
+DAV:  15    -0.210477031670E+03   -0.36964E+00   -0.24279E+00156396   0.133E+01    0.814E+00
+DAV:  16    -0.211153035190E+03   -0.67600E+00   -0.27035E+00153237   0.132E+01    0.909E+00
+DAV:  17    -0.211035785678E+03    0.11725E+00   -0.16435E+00156106   0.121E+01    0.548E+00
+DAV:  18    -0.211251280730E+03   -0.21550E+00   -0.10375E+00149281   0.805E+00    0.351E+00
+DAV:  19    -0.211277180521E+03   -0.25900E-01   -0.66282E-01155250   0.731E+00    0.342E+00
+DAV:  20    -0.211242821036E+03    0.34359E-01   -0.23729E-01147899   0.452E+00    0.140E+00
+DAV:  21    -0.211250443415E+03   -0.76224E-02   -0.39853E-02132371   0.126E+00    0.108E+00
+DAV:  22    -0.211250675813E+03   -0.23240E-03   -0.27929E-02148929   0.145E+00    0.831E-01
+DAV:  23    -0.211250871530E+03   -0.19572E-03   -0.12136E-02153669   0.795E-01    0.409E-01
+DAV:  24    -0.211251661708E+03   -0.79018E-03   -0.57973E-03135751   0.398E-01    0.258E-01
+DAV:  25    -0.211252163516E+03   -0.50181E-03   -0.35147E-03117332   0.274E-01    0.178E-01
+DAV:  26    -0.211252379805E+03   -0.21629E-03   -0.18053E-03 60693   0.115E-01    0.115E-01
+DAV:  27    -0.211252508625E+03   -0.12882E-03   -0.14795E-03 51703   0.116E-01    0.510E-02
+DAV:  28    -0.211252629242E+03   -0.12062E-03   -0.12294E-03 60997   0.660E-02    0.336E-02
+DAV:  29    -0.211252720422E+03   -0.91180E-04   -0.91622E-04 45064   0.386E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band     |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   1 F= -.21125272E+03 E0= -.21118364E+03  d E =-.211253E+03  mag=    57.6773
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.000E+00 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.400E-09
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions

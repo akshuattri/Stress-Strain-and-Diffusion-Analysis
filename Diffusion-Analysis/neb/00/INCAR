@@ -1,0 +1,19 @@
+SYSTEM = bcc Fe (SCF_end_point)
+
+ISTART = 0
+ICHARG = 2
+PREC   = Accurate
+
+ENCUT  = 350
+NSW    = 0
+IBRION = -1
+
+ISMEAR = 0
+SIGMA  = 0.1
+ISPIN  = 2
+
+NCORE  = 16
+
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+
